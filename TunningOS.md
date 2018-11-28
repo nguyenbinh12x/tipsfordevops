@@ -46,7 +46,10 @@ sysctl -p
 ```
 
 # Reference
+```
 [1]. http://www.tweaked.io/guide/kernel/
 [2]. https://mrotaru.wordpress.com/2013/10/10/scaling-to-12-million-concurrent-connections-how-migratorydata-did-it/
-
+[3]. https://gist.github.com/sokratisg/98d03e20fca76d4b699f
+[4]. https://www.cyberciti.biz/faq/linux-increase-the-maximum-number-of-open-files/
+```
 
