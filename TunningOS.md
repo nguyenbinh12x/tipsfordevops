@@ -1,9 +1,13 @@
 # Tunning OS
-A common misunderstanding is that a server cannot accept more than 65,536 TCP sockets because TCP ports are 16-bit integer numbers.
+Tuning of the Linux operating system has been done "out of the box" by enterprise-optimized distributions, but there are still many opportunities for a system administrator to improve the performance of his or her workload on a Linux system.
+A number of kernel tuning suggestions, mainly in terms of ports and socket descriptors.
+Some concepts about tunning as following:
++ File Handle Limits
++ Socket Tuning
++ Process Scheduler
++ Filesystem Tuning
 
-
-We assumpt to use OS as centos 7.
-
+This lab, we assumpt to use OS as centos 7 as following.
 
 ## Edit /etc/security/limits.conf
 ```
