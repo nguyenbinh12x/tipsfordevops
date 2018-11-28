@@ -38,7 +38,6 @@ net.ipv4.tcp_mem = 383865 511820 2303190
 
 net.core.rmem_max = 16777216
 net.core.wmem_max = 16777216
-net.core.somaxconn = 324000
 ```
 
 Run below command for modifying kernel parameters.
