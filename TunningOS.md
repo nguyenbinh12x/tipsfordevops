@@ -42,6 +42,24 @@ net.core.wmem_max = 16777216
 net.core.somaxconn = 324000
 ```
 
+
+```
+fs.file-max = 20000000
+net.ipv4.ip_local_port_range = 1024 65535
+net.ipv4.tcp_tw_recycle = 1
+net.ipv4.tcp_tw_reuse = 1
+net.ipv4.tcp_max_syn_backlog = 32400000
+net.ipv4.tcp_max_tw_buckets = 20000000
+net.ipv4.tcp_fin_timeout = 15
+net.ipv4.tcp_keepalive_intvl = 30
+net.ipv4.tcp_keepalive_probes = 5
+net.ipv4.tcp_mem = 383865 511820 2303190
+
+net.core.rmem_max = 16777216
+net.core.wmem_max = 16777216
+net.core.somaxconn = 324000
+```
+
 Run below command for modifying kernel parameters.
 ```
 sysctl -p 
