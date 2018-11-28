@@ -25,6 +25,7 @@ You should reboot your os
 ## You should edit file handle limit, socket tunning as this file /etc/sysctl.conf
 ```
 fs.file-max = 20000000
+fs.nr_open = 20000000
 net.ipv4.ip_local_port_range = 1024 65535
 net.ipv4.tcp_tw_recycle = 1
 net.ipv4.tcp_tw_reuse = 1
