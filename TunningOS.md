@@ -36,6 +36,7 @@ net.ipv4.tcp_fin_timeout = 15
 net.ipv4.tcp_keepalive_intvl = 30
 net.ipv4.tcp_keepalive_probes = 5
 net.ipv4.tcp_mem = 383865 511820 2303190
+
 net.core.rmem_max = 16777216
 net.core.wmem_max = 16777216
 net.core.somaxconn = 324000
