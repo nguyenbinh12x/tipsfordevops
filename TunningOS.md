@@ -7,7 +7,7 @@ Some concepts about tunning as following:
 + Process Scheduler
 + Filesystem Tuning
 
-This lab, we assumpt to use OS as centos 7 as following.
+This lab, assumption using OS as centos 7 as following.
 
 ## Edit /etc/security/limits.conf
 ```
