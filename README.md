@@ -1,6 +1,6 @@
-#Tips For DevOps
+# Tips For DevOps
 
-Some tips about installation/configuration for linux/unix. 
+Some tips installation/configuration for linux/unix. 
 
 ## Tuning Apache2
 
